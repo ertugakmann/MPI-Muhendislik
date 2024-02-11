@@ -24,19 +24,19 @@
   .slicer .carousel-inner .carousel-item-prev {
     transform: translateX(-33.333%);
   }
-
-  #carousel-control-left {
-    width: 35px;
-    height: 35px;
-  }
-
-  #carousel-control-right {
-    width: 35px;
-    height: 35px;
-  }
 }
 
 .slicer .carousel-inner .carousel-item-right,
 .slicer .carousel-inner .carousel-item-left {
   transform: translateX(0);
+}
+
+#carousel-control-left {
+  width: 35px;
+  height: 35px;
+}
+
+#carousel-control-right {
+  width: 35px;
+  height: 35px;
 }
