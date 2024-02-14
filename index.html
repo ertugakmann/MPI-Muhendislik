@@ -1,879 +1,632 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>MPI Mühendislik</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon" />
+<head>
+  <meta charset="utf-8" />
+  <title>MPI Mühendislik</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon" />
 
-    <!-- Scroll Reveal -->
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500;700&display=swap"
+    rel="stylesheet" />
 
-    <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- Scroll Reveal -->
 
-    <!-- Font Awesome -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
+  <script src="https://unpkg.com/scrollreveal"></script>
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/cards.css" />
-  </head>
+  <!-- Libraries Stylesheet -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
-  <body data-spy="scroll" data-target=".navbar" data-offset="51">
-    <!-- Navbar Start -->
-    <nav
-      class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-1 py-lg-0 px-lg-5"
-    >
-      <a href="index.html" class="navbar-brand d-block d-lg-none">
-        <img
-          style="height: 50px"
-          src="https://lh3.googleusercontent.com/proxy/-Q64xdGZGU14F1Dh2bNUwY4i51Mx7OkYZgDqBr46H3NOH0hKuV4RqDgY40szILTZIDj-Ed8CioOoGESH3l2Wdg"
-        />
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/cards.css" />
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+  <!-- Navbar Start -->
+  <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-1 py-lg-0 px-lg-5">
+    <a href="index.html" class="navbar-brand d-block d-lg-none">
+      <img style="height: 50px"
+        src="https://lh3.googleusercontent.com/proxy/-Q64xdGZGU14F1Dh2bNUwY4i51Mx7OkYZgDqBr46H3NOH0hKuV4RqDgY40szILTZIDj-Ed8CioOoGESH3l2Wdg" />
+    </a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+      <div style="margin-right: 70px" class="navbar-nav ml-auto py-0">
+        <a href="#home" class="nav-item nav-link active">Ana Sayfa</a>
+        <a href="#about" class="nav-item nav-link">Hakkımızda</a>
+      </div>
+      <a href="index.html" class="navbar-brand px-4 mx-3 d-none d-lg-block">
+        <img style="height: 70px; width: 70px; margin-right: 120px"
+          src="https://lh3.googleusercontent.com/proxy/-Q64xdGZGU14F1Dh2bNUwY4i51Mx7OkYZgDqBr46H3NOH0hKuV4RqDgY40szILTZIDj-Ed8CioOoGESH3l2Wdg" />
       </a>
-      <button
-        type="button"
-        class="navbar-toggler"
-        data-toggle="collapse"
-        data-target="#navbarCollapse"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        class="collapse navbar-collapse justify-content-between"
-        id="navbarCollapse"
-      >
-        <div style="margin-right: 70px" class="navbar-nav ml-auto py-0">
-          <a href="#home" class="nav-item nav-link active">Ana Sayfa</a>
-          <a href="#about" class="nav-item nav-link">Hakkımızda</a>
-        </div>
-        <a href="index.html" class="navbar-brand px-4 mx-3 d-none d-lg-block">
-          <img
-            style="height: 70px; width: 70px; margin-right: 120px"
-            src="https://lh3.googleusercontent.com/proxy/-Q64xdGZGU14F1Dh2bNUwY4i51Mx7OkYZgDqBr46H3NOH0hKuV4RqDgY40szILTZIDj-Ed8CioOoGESH3l2Wdg"
-          />
-        </a>
-        <div class="navbar-nav mr-auto py-0">
-          <a href="#faqs" class="nav-item nav-link">Projeler</a>
-          <a href="#contact" class="nav-item nav-link">İletişim</a>
-        </div>
-      </div>
-    </nav>
-    <!-- Navbar End -->
-
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5 pb-5" id="home">
-      <div
-        id="header-carousel"
-        class="carousel slide carousel-fade"
-        data-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div
-            class="carousel-item position-relative active"
-            style="height: 100vh; min-height: -400px"
-          >
-            <img
-              class="position-absolute w-100 h-100"
-              src="https://plantillashtmlgratis.com/wp-content/themes/helium-child/vista_previa/page266/builderz/img/carousel-1.jpg"
-              style="object-fit: cover"
-            />
-            <div
-              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
-            >
-              <div class="p-3" style="max-width: 900px; margin-bottom: 145px">
-                <h7
-                  class="text-white text-uppercase mb-4"
-                  style="letter-spacing: 3px"
-                >
-                  muhendislik proje insaat
-                </h7>
-                <h3 class="display-2 font-secondary text-white mb-4">
-                  MPİ MÜHENDİSLİK
-                </h3>
-                <a
-                  class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll"
-                  href="#contact"
-                  >İletişime Geç</a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="carousel-item position-relative"
-            style="height: 100vh; min-height: 400px"
-          >
-            <img
-              class="position-absolute w-100 h-100"
-              src="https://plantillashtmlgratis.com/wp-content/themes/helium-child/vista_previa/page266/builderz/img/carousel-3.jpg"
-              style="object-fit: cover"
-            />
-            <div
-              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
-            >
-              <div class="p-3" style="max-width: 900px; margin-bottom: 145px">
-                <h7
-                  class="text-white text-uppercase mb-4"
-                  style="letter-spacing: 3px"
-                >
-                  muhendislik proje insaat
-                </h7>
-                <h3 class="display-2 font-secondary text-white mb-4">
-                  MPİ MÜHENDİSLİK
-                </h3>
-                <a
-                  class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll"
-                  href="#contact"
-                  >İletişime Geç</a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="carousel-item position-relative"
-            style="height: 100vh; min-height: 400px"
-          >
-            <img
-              class="position-absolute w-100 h-100"
-              src="images/mpi-slider4.jpeg"
-              style="object-fit: cover"
-            />
-            <div
-              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
-            >
-              <div class="p-3" style="max-width: 900px; margin-bottom: 145px">
-                <h7
-                  class="text-white text-uppercase mb-4"
-                  style="letter-spacing: 3px"
-                >
-                  muhendislik proje insaat
-                </h7>
-                <h3 class="display-2 font-secondary text-white mb-4">
-                  MPİ MÜHENDİSLİK
-                </h3>
-                <a
-                  class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll"
-                  href="#contact"
-                  >İletişime Geç</a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="carousel-item position-relative"
-            style="height: 100vh; min-height: 400px"
-          >
-            <img
-              class="position-absolute w-100 h-100"
-              src="images/mpi-slider5.jpeg"
-              style="object-fit: cover"
-            />
-            <div
-              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
-            >
-              <div class="p-3" style="max-width: 900px; margin-bottom: 145px">
-                <h7
-                  class="text-white text-uppercase mb-4"
-                  style="letter-spacing: 3px"
-                >
-                  muhendislik proje insaat
-                </h7>
-                <h3 class="display-2 font-secondary text-white mb-4">
-                  MPİ MÜHENDİSLİK
-                </h3>
-                <a
-                  class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll"
-                  href="#contact"
-                  >İletişime Geç</a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="carousel-item position-relative"
-            style="height: 100vh; min-height: 400px"
-          >
-            <img
-              class="position-absolute w-100 h-100"
-              src="images/mpi-slider6.jpeg"
-              style="object-fit: cover"
-            />
-            <div
-              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
-            >
-              <div class="p-3" style="max-width: 900px; margin-bottom: 145px">
-                <h7
-                  class="text-white text-uppercase mb-4"
-                  style="letter-spacing: 3px"
-                >
-                  muhendislik proje insaat
-                </h7>
-                <h3 class="display-2 font-secondary text-white mb-4">
-                  MPİ MÜHENDİSLİK
-                </h3>
-                <a
-                  class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll"
-                  href="#contact"
-                  >İletişime Geç</a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="carousel-item position-relative"
-            style="height: 100vh; min-height: 400px"
-          >
-            <img
-              class="position-absolute w-100 h-100"
-              src="images/mpi-slider7.jpeg"
-              style="object-fit: cover"
-            />
-            <div
-              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
-            >
-              <div class="p-3" style="max-width: 900px; margin-bottom: 145px">
-                <h7
-                  class="text-white text-uppercase mb-4"
-                  style="letter-spacing: 3px"
-                >
-                  muhendislik proje insaat
-                </h7>
-                <h3 class="display-2 font-secondary text-white mb-4">
-                  MPİ MÜHENDİSLİK
-                </h3>
-                <a
-                  class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll"
-                  href="#contact"
-                  >İletişime Geç</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <a
-          class="carousel-control-prev justify-content-start"
-          href="#header-carousel"
-          data-slide="prev"
-        >
-          <div class="btn btn-primary px-0" style="width: 68px; height: 68px">
-            <span class="carousel-control-prev-icon mt-3"></span>
-          </div>
-        </a>
-        <a
-          class="carousel-control-next justify-content-end"
-          href="#header-carousel"
-          data-slide="next"
-        >
-          <div class="btn btn-primary px-0" style="width: 68px; height: 68px">
-            <span class="carousel-control-next-icon mt-3"></span>
-          </div>
-        </a>
+      <div class="navbar-nav mr-auto py-0">
+        <a href="#faqs" class="nav-item nav-link">Projeler</a>
+        <a href="#contact" class="nav-item nav-link">İletişim</a>
       </div>
     </div>
-    <!-- Carousel End -->
+  </nav>
+  <!-- Navbar End -->
 
-    <!-- About Start -->
-    <div class="container-fluid py-5" id="about">
-      <div class="container py-5">
-        <div class="row align-items-center">
-          <div class="col-lg-5">
-            <img
-              class="img-fluid mb-4 mb-lg-0 anime-left"
-              src="https://plantillashtmlgratis.com/wp-content/themes/helium-child/vista_previa/page266/builderz/img/about.jpg"
-            />
-          </div>
-          <div style="overflow: hidden" class="col-lg-7 anime-right">
-            <h6
-              class="text-uppercase text-primary mb-3"
-              style="letter-spacing: 3px"
-            >
-              Hakkımızda
-            </h6>
-            <h1 class="display-4 mb-3">
-              <span class="text-primary">İnşaat Mühendisliğin'de</span> +25 Yıl
-              Deneyim
-            </h1>
-
-            <p>
-              MPI Mühendislik Proje İnşaat Taahhüt San. ve Tic. Ltd. Şti., 1997
-              yılından bu yana, içerisinde yer aldığı sektörde kaliteli projeler
-              üretmeyi amaçlamaktadır. Bu amaç doğrultusunda, şirketimiz İnşaat
-              Mühendisliği Proje, Kontrollük ve Danışmanlık hizmetinde deneyimli
-              mühendisler ve teknik personel ile, gerekli teknolojik donanımlar
-              ve lisanslı tasarım yazılımlarıyla hizmet vermektedir. Grubumuzun
-              kalite anlayışı, ulusal ve uluslararası teknik standart,
-              yönetmelik ve şartnamelere uygun, ekonomik, uygulanabilir ve
-              işletmelerin ihtiyaçlarına cevap verebilecek İnşaat Mühendisliği
-              Proje, Kontrollük ve Danışmanlık hizmetlerini hedeflenen süreler
-              içerisinde tamamlamak ve müşteriye sunmaktır.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid py-5" id="about">
-      <div class="container py-5">
-        <div class="row align-items-center">
-          <div class="col-lg-7 anime-left">
-            <h1 class="display-4 mb-3">
-              <span class="text-primary">İnşaat Mühendisliğin'de</span> Çalışma
-              Alanlarımız
-            </h1>
-            <p>
-              Çalışma alanlarımız geniş bir coğrafyayı kapsayacak şekilde
-              genişlemiş olup, yurtiçi ve yurtdışında faaliyet göstermekteyiz.
-              Rusya, Bulgaristan, Romanya, Irak, Azerbaycan, Türkmenistan, Mısır
-              ve Libya gibi pek çok ülkede sunduğumuz hizmetler arasında her
-              türlü betonarme, çelik ve ahşap yapı projelendirme ile mesleki
-              kontrol hizmetleri bulunmaktadır. Bu çeşitlilik, sektörde geniş
-              bir uzmanlık yelpazesi sunarak müşterilerimize en iyi çözümleri
-              sağlamamıza olanak tanımaktadır.
-            </p>
-          </div>
-          <div class="col-lg-5">
-            <img
-              class="img-fluid mb-4 mb-lg-0 anime-right"
-              src="https://img.freepik.com/free-photo/medium-shot-back-view-engineer-supervising-construction_23-2148233750.jpg?size=626&ext=jpg&ga=GA1.2.1719091525.1707645036&semt=ais"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid py-5" id="about">
-      <div class="container py-5">
-        <div class="row align-items-center">
-          <div class="col-lg-5">
-            <img
-              class="img-fluid mb-4 mb-lg-0 anime-left"
-              src="https://img.freepik.com/free-photo/architect-man-showing-something-project-his-colleague-foreman_496169-959.jpg?size=626&ext=jpg&ga=GA1.2.1719091525.1707645036&semt=ais"
-            />
-          </div>
-          <div class="col-lg-7 anime-right">
-            <h1 class="display-4 mb-3">
-              <span class="text-primary">İnşaat Mühendisliğin'de</span>
-              Sunduklarımız
-            </h1>
-            <p>
-              İnşaat Mühendisliği Proje, Kontrollük ve Danışmanlık hizmetlerini
-              hedeflenen süreler içerisinde tamamlamak ve müşteriye sunmak
-              amacıyla şirket bünyesinde yürütülen bir kalite yönetim sistemi
-              oluşturulmuştur. Sistemin amacı, üretimin her aşamasında bir üst
-              mertebedeki yöneticiler tarafından sürekli olarak denetlenen tüm
-              çalışanlara sorumluluk yükleyerek, kusursuz hizmet üretebilmektir.
-              Bu amaç doğrultusunda şirket yönetimince, tüm personelin
-              bilgilerinin güncellenmesi, pekiştirilmesi, yeni katılan
-              personelin oryantasyonu için planlı ve gerekmesi halinde plan dışı
-              eğitim seminerleri düzenlenmektedir.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- About End -->
-
-    <!-- Projects Start -->
-    <div
-      class="container-fluid bg-gallery"
-      id="faqs"
-      style="padding: 10px 0; margin: 90px 0; background-image: none"
-    >
-      <div class="section-title position-relative text-center title">
-        <h6
-          class="text-uppercase text-primary mb-3"
-          style="letter-spacing: 3px; color: #22395d"
-        >
-          Proje
-        </h6>
-        <h1 class="font-secondary display-4" style="color: #22395d">
-          Projeler
-        </h1>
-      </div>
-      <div class="container text-center my-3">
-        <div class="row mx-auto my-auto">
-          <div
-            id="recipeCarousel"
-            class="carousel slide w-100"
-            data-ride="carousel"
-          >
-            <div class="slicer">
-              <div class="carousel-inner w-300" role="listbox">
-                <div class="carousel-item active">
-                  <div class="col-md-4">
-                    <div style="height: 450px" class="card card-body">
-                      <h5>Aktif İnşaat Rusya Thyumen Poliklinik Binası</h5>
-
-                      <span
-                        ><h6>Projenin Konumu :</h6>
-                        Rusya
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Projenin Yılı :</h6>
-                        1999
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Proje İçin İrtibat :</h6>
-                        Engin SEVİMLİ / 0212 241 51 37
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Açıklama :</h6>
-                        <p></p>
-                        Toplam 10.000 m² inşaat alanı Poliklinik + yardımcı
-                        tesisler
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div style="height: 450px" class="card card-body">
-                      <h5>Oryataş Ümraniye Oryapark Konutları</h5>
-
-                      <span
-                        ><h6>Projenin Konumu :</h6>
-                        İstanbul
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Projenin Yılı :</h6>
-                        2011
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Proje İçin İrtibat :</h6>
-                        Mert TAŞ / 0212 252 52 80
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Açıklama :</h6>
-                        <p></p>
-                        Toplam 115.000 m² inşaat alanı
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div style="height: 450px" class="card card-body">
-                      <h5>Koçak Gold Generali Binası</h5>
-
-                      <span
-                        ><h6>Projenin Konumu :</h6>
-                        İstanbul
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Projenin Yılı :</h6>
-                        2012
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Proje İçin İrtibat :</h6>
-                        İsmet KOÇAK
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Açıklama :</h6>
-                        <p></p>
-                        Toplam 6.000 m² inşaat alanı
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div style="height: 450px" class="card card-body">
-                      <h5>Polat Holding Mahmutbey Oteli</h5>
-
-                      <span
-                        ><h6>Projenin Konumu :</h6>
-                        İstanbul
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Projenin Yılı :</h6>
-                        2013
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Proje İçin İrtibat :</h6>
-                        Namık ÜNLÜ / 0212 212 00 44
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Açıklama :</h6>
-                        <p></p>
-                        Toplam 56.000 m² inşaat alanı
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div style="height: 450px" class="card card-body">
-                      <h5>Garanti Bankası Pendik Otomasyon Merkezi</h5>
-
-                      <span
-                        ><h6>Projenin Konumu :</h6>
-                        İstanbul-Pendik
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Projenin Yılı :</h6>
-                        2012
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Proje İçin İrtibat :</h6>
-                        Fahrettin ÇİLOĞLU / 0216 455 92 10
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Açıklama :</h6>
-                        <p></p>
-                        Toplam 142.000 m² inşaat alanı
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div style="height: 450px" class="card card-body">
-                      <h5>Suryapı İzmir Rezidanz + AVM</h5>
-
-                      <span
-                        ><h6>Projenin Konumu :</h6>
-                        İzmir
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Projenin Yılı :</h6>
-                        2013
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Proje İçin İrtibat :</h6>
-                        Altan ELMAS / 0216 422 56 37
-                      </span>
-                      <hr />
-                      <span
-                        ><h6>Açıklama :</h6>
-                        <p></p>
-                        Toplam 125.000 m² inşaat alanı
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+  <!-- Carousel Start -->
+  <div class="container-fluid p-0 mb-5 pb-5" id="home">
+    <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item position-relative active" style="height: 100vh; min-height: -400px">
+          <img class="position-absolute w-100 h-100"
+            src="https://plantillashtmlgratis.com/wp-content/themes/helium-child/vista_previa/page266/builderz/img/carousel-1.jpg"
+            style="object-fit: cover" />
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+            <div class="p-3" style="max-width: 900px; margin-bottom: 145px">
+              <h7 class="text-white text-uppercase mb-4" style="letter-spacing: 3px">
+                muhendislik proje insaat
+              </h7>
+              <h3 class="display-2 font-secondary text-white mb-4">
+                MPİ MÜHENDİSLİK
+              </h3>
+              <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact">İletişime Geç</a>
             </div>
-            <a
-              class="carousel-control-prev w-auto"
-              href="#recipeCarousel"
-              role="button"
-              data-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon bg-dark border border-dark rounded-circle"
-                aria-hidden="true"
-                id="carousel-control-left"
-              ></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a
-              class="carousel-control-next w-auto"
-              href="#recipeCarousel"
-              role="button"
-              data-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon bg-dark border border-dark rounded-circle"
-                aria-hidden="true"
-                id="carousel-control-right"
-              ></span>
-              <span class="sr-only">Next</span>
-            </a>
-            <a
-              class="btn btn-primary font-weight-bold py-3 px-5 mt-5"
-              type="button"
-              data-toggle="modal"
-              data-target="#exampleModalLong"
-              >Tüm Projeler</a
-            >
+          </div>
+        </div>
+        <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px">
+          <img class="position-absolute w-100 h-100"
+            src="https://plantillashtmlgratis.com/wp-content/themes/helium-child/vista_previa/page266/builderz/img/carousel-3.jpg"
+            style="object-fit: cover" />
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+            <div class="p-3" style="max-width: 900px; margin-bottom: 145px">
+              <h7 class="text-white text-uppercase mb-4" style="letter-spacing: 3px">
+                muhendislik proje insaat
+              </h7>
+              <h3 class="display-2 font-secondary text-white mb-4">
+                MPİ MÜHENDİSLİK
+              </h3>
+              <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact">İletişime Geç</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px">
+          <img class="position-absolute w-100 h-100" src="images/mpi-slider4.jpeg" style="object-fit: cover" />
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+            <div class="p-3" style="max-width: 900px; margin-bottom: 145px">
+              <h7 class="text-white text-uppercase mb-4" style="letter-spacing: 3px">
+                muhendislik proje insaat
+              </h7>
+              <h3 class="display-2 font-secondary text-white mb-4">
+                MPİ MÜHENDİSLİK
+              </h3>
+              <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact">İletişime Geç</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px">
+          <img class="position-absolute w-100 h-100" src="images/mpi-slider5.jpeg" style="object-fit: cover" />
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+            <div class="p-3" style="max-width: 900px; margin-bottom: 145px">
+              <h7 class="text-white text-uppercase mb-4" style="letter-spacing: 3px">
+                muhendislik proje insaat
+              </h7>
+              <h3 class="display-2 font-secondary text-white mb-4">
+                MPİ MÜHENDİSLİK
+              </h3>
+              <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact">İletişime Geç</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px">
+          <img class="position-absolute w-100 h-100" src="images/mpi-slider6.jpeg" style="object-fit: cover" />
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+            <div class="p-3" style="max-width: 900px; margin-bottom: 145px">
+              <h7 class="text-white text-uppercase mb-4" style="letter-spacing: 3px">
+                muhendislik proje insaat
+              </h7>
+              <h3 class="display-2 font-secondary text-white mb-4">
+                MPİ MÜHENDİSLİK
+              </h3>
+              <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact">İletişime Geç</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px">
+          <img class="position-absolute w-100 h-100" src="images/mpi-slider7.jpeg" style="object-fit: cover" />
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+            <div class="p-3" style="max-width: 900px; margin-bottom: 145px">
+              <h7 class="text-white text-uppercase mb-4" style="letter-spacing: 3px">
+                muhendislik proje insaat
+              </h7>
+              <h3 class="display-2 font-secondary text-white mb-4">
+                MPİ MÜHENDİSLİK
+              </h3>
+              <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact">İletişime Geç</a>
+            </div>
           </div>
         </div>
       </div>
+
+      <a class="carousel-control-prev justify-content-start" href="#header-carousel" data-slide="prev">
+        <div class="btn btn-primary px-0" style="width: 68px; height: 68px">
+          <span class="carousel-control-prev-icon mt-3"></span>
+        </div>
+      </a>
+      <a class="carousel-control-next justify-content-end" href="#header-carousel" data-slide="next">
+        <div class="btn btn-primary px-0" style="width: 68px; height: 68px">
+          <span class="carousel-control-next-icon mt-3"></span>
+        </div>
+      </a>
     </div>
+  </div>
+  <!-- Carousel End -->
 
-    <!-- Projects End -->
-
-    <!-- Contact Start -->
-    <div class="container-fluid py-0" id="contact">
-      <div class="container py-5">
-        <div class="section-title position-relative text-center title">
-          <h6
-            class="text-uppercase text-primary mb-3"
-            style="letter-spacing: 3px"
-          >
-            İletişim
+  <!-- About Start -->
+  <div class="container-fluid py-5" id="about">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-5">
+          <img class="img-fluid mb-4 mb-lg-0 anime-left"
+            src="https://plantillashtmlgratis.com/wp-content/themes/helium-child/vista_previa/page266/builderz/img/about.jpg" />
+        </div>
+        <div style="overflow: hidden" class="col-lg-7 anime-right">
+          <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px">
+            Hakkımızda
           </h6>
-          <h1 class="font-secondary display-4">İletişime Geç</h1>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="contact-form">
-              <div id="success"></div>
-              <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                <div class="form-row">
-                  <div class="col-sm-6 control-group">
-                    <input
-                      type="text"
-                      class="form-control bg-secondary border-0 py-4 px-3"
-                      id="name"
-                      placeholder="İsim"
-                      required="required"
-                      data-validation-required-message="Lütfen İsminizi Giriniz"
-                    />
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="col-sm-6 control-group">
-                    <input
-                      type="email"
-                      class="form-control bg-secondary border-0 py-4 px-3"
-                      id="email"
-                      placeholder="E-Posta"
-                      required="required"
-                      data-validation-required-message="Lütfen E-Posta Adresinizi Giriniz"
-                    />
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="control-group">
-                  <input
-                    type="text"
-                    class="form-control bg-secondary border-0 py-4 px-3"
-                    id="subject"
-                    placeholder="Başlık"
-                    required="required"
-                    data-validation-required-message="Lütfen Bir Başlık Giriniz"
-                  />
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="control-group">
-                  <textarea
-                    class="form-control bg-secondary border-0 py-2 px-3"
-                    rows="6"
-                    id="message"
-                    placeholder="Mesaj"
-                    required="required"
-                    data-validation-required-message="Lütfen Bir Mesaj Giriniz"
-                  ></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="text-center">
-                  <button
-                    class="btn btn-primary font-weight-bold py-3 px-5"
-                    type="submit"
-                    id="sendMessageButton"
-                  >
-                    Mesajı Gonder
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Contact End -->
+          <h1 class="display-4 mb-3">
+            <span class="text-primary">İnşaat Mühendisliğin'de</span> +25 Yıl
+            Deneyim
+          </h1>
 
-    <!-- Footer Start -->
-    <div
-      class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5"
-      style="margin-top: 90px"
-    >
-      <div class="row pt-5">
-        <div class="col-12 mb-4 px-4">
-          <div
-            class="row mb-5 p-4"
-            style="background: rgba(256, 256, 256, 0.05)"
-          >
-            <div class="col-md-4">
-              <div class="text-md-center">
-                <h5
-                  class="text-primary text-uppercase mb-2"
-                  style="letter-spacing: 5px"
-                >
-                  Ofis
-                </h5>
-                <p class="mb-4 m-md-0">
-                  Çilekli Cad. Sedir Sk. No:8 3.Levent / 34330 Beşiktaş -
-                  İSTANBUL
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="text-md-center">
-                <h5
-                  class="text-primary text-uppercase mb-2"
-                  style="letter-spacing: 5px"
-                >
-                  Email
-                </h5>
-                <p class="mb-4 m-md-0">mpi@mpi.com.tr</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="text-md-center">
-                <h5
-                  class="text-primary text-uppercase mb-2"
-                  style="letter-spacing: 5px"
-                >
-                  Bizi Ara
-                </h5>
-                <p class="m-0">
-                  Tel : (+90 212) 282 72 07 <br />
-                  Faks :(+90 212) 283 59 29
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-7 col-md-12">
-          <div class="row">
-            <div class="col-md-6 mb-5">
-              <p>
-                Şirket yönetimi gerekmesi halinde özelliği olan projelerde
-                gerekli uzman kuruluşlardan ve Üniversitelerin ilgili
-                birimlerinden danışmanlık hizmeti de almaktadır.
-              </p>
-              <div class="d-flex justify-content-start mt-4">
-                <a
-                  class="btn btn-lg btn-outline-light btn-lg-square mr-2"
-                  href="#"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a
-                  class="btn btn-lg btn-outline-light btn-lg-square mr-2"
-                  href="#"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a
-                  class="btn btn-lg btn-outline-light btn-lg-square mr-2"
-                  href="#"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-                <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-              </div>
-            </div>
-            <div class="col-md-6 mb-5">
-              <iframe
-                style="width: 470px; padding-right: 120px"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3007.175909668423!2d29.019374999999997!3d41.087002999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab67251511cdf%3A0xc552f7b315e3a2e5!2zTVDEsCBNw5xIRU5ExLBTTMSwSyAvIE1QSSBFTkdJTkVFUklORw!5e0!3m2!1sen!2s!4v1400595601314"
-                width="668"
-                height="200"
-                frameborder="0"
-                style="border: 0"
-              ></iframe>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 col-md-12 mb-5">
-          <h5
-            class="text-primary text-uppercase mb-4"
-            style="letter-spacing: 5px"
-          >
-            E-Bülten Üyelik
-          </h5>
           <p>
-            Bizimle ilgili en son haberlere ulaşmak için e-mail listemize kayıt
-            olabilirsiniz.
+            MPI Mühendislik Proje İnşaat Taahhüt San. ve Tic. Ltd. Şti., 1997
+            yılından bu yana, içerisinde yer aldığı sektörde kaliteli projeler
+            üretmeyi amaçlamaktadır. Bu amaç doğrultusunda, şirketimiz İnşaat
+            Mühendisliği Proje, Kontrollük ve Danışmanlık hizmetinde deneyimli
+            mühendisler ve teknik personel ile, gerekli teknolojik donanımlar
+            ve lisanslı tasarım yazılımlarıyla hizmet vermektedir. Grubumuzun
+            kalite anlayışı, ulusal ve uluslararası teknik standart,
+            yönetmelik ve şartnamelere uygun, ekonomik, uygulanabilir ve
+            işletmelerin ihtiyaçlarına cevap verebilecek İnşaat Mühendisliği
+            Proje, Kontrollük ve Danışmanlık hizmetlerini hedeflenen süreler
+            içerisinde tamamlamak ve müşteriye sunmaktır.
           </p>
-          <div class="w-100">
-            <div class="input-group">
-              <input
-                type="text"
-                class="form-control border-light"
-                style="padding: 30px"
-                placeholder="E-Posta Adresiniz"
-              />
-              <div class="input-group-append">
-                <button class="btn btn-primary px-4">Gönder</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid py-5" id="about">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-7 anime-left">
+          <h1 class="display-4 mb-3">
+            <span class="text-primary">İnşaat Mühendisliğin'de</span> Çalışma
+            Alanlarımız
+          </h1>
+          <p>
+            Çalışma alanlarımız geniş bir coğrafyayı kapsayacak şekilde
+            genişlemiş olup, yurtiçi ve yurtdışında faaliyet göstermekteyiz.
+            Rusya, Bulgaristan, Romanya, Irak, Azerbaycan, Türkmenistan, Mısır
+            ve Libya gibi pek çok ülkede sunduğumuz hizmetler arasında her
+            türlü betonarme, çelik ve ahşap yapı projelendirme ile mesleki
+            kontrol hizmetleri bulunmaktadır. Bu çeşitlilik, sektörde geniş
+            bir uzmanlık yelpazesi sunarak müşterilerimize en iyi çözümleri
+            sağlamamıza olanak tanımaktadır.
+          </p>
+        </div>
+        <div class="col-lg-5">
+          <img class="img-fluid mb-4 mb-lg-0 anime-right"
+            src="https://img.freepik.com/free-photo/medium-shot-back-view-engineer-supervising-construction_23-2148233750.jpg?size=626&ext=jpg&ga=GA1.2.1719091525.1707645036&semt=ais" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid py-5" id="about">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-5">
+          <img class="img-fluid mb-4 mb-lg-0 anime-left"
+            src="https://img.freepik.com/free-photo/architect-man-showing-something-project-his-colleague-foreman_496169-959.jpg?size=626&ext=jpg&ga=GA1.2.1719091525.1707645036&semt=ais" />
+        </div>
+        <div class="col-lg-7 anime-right">
+          <h1 class="display-4 mb-3">
+            <span class="text-primary">İnşaat Mühendisliğin'de</span>
+            Sunduklarımız
+          </h1>
+          <p>
+            İnşaat Mühendisliği Proje, Kontrollük ve Danışmanlık hizmetlerini
+            hedeflenen süreler içerisinde tamamlamak ve müşteriye sunmak
+            amacıyla şirket bünyesinde yürütülen bir kalite yönetim sistemi
+            oluşturulmuştur. Sistemin amacı, üretimin her aşamasında bir üst
+            mertebedeki yöneticiler tarafından sürekli olarak denetlenen tüm
+            çalışanlara sorumluluk yükleyerek, kusursuz hizmet üretebilmektir.
+            Bu amaç doğrultusunda şirket yönetimince, tüm personelin
+            bilgilerinin güncellenmesi, pekiştirilmesi, yeni katılan
+            personelin oryantasyonu için planlı ve gerekmesi halinde plan dışı
+            eğitim seminerleri düzenlenmektedir.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About End -->
+
+  <!-- Projects Start -->
+  <div class="container-fluid bg-gallery" id="faqs" style="padding: 10px 0; margin: 90px 0; background-image: none">
+    <div class="section-title position-relative text-center title">
+      <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px; color: #22395d">
+        Proje
+      </h6>
+      <h1 class="font-secondary display-4" style="color: #22395d">
+        Projeler
+      </h1>
+    </div>
+    <div class="container text-center my-3">
+      <div class="row mx-auto my-auto">
+        <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+          <div class="slicer">
+            <div class="carousel-inner w-300" role="listbox">
+              <div class="carousel-item active">
+                <div class="col-md-4">
+                  <div style="height: 450px" class="card card-body">
+                    <h5>Aktif İnşaat Rusya Thyumen Poliklinik Binası</h5>
+
+                    <span>
+                      <h6>Projenin Konumu :</h6>
+                      Rusya
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Projenin Yılı :</h6>
+                      1999
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Proje İçin İrtibat :</h6>
+                      Engin SEVİMLİ / 0212 241 51 37
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Açıklama :</h6>
+                      <p></p>
+                      Toplam 10.000 m² inşaat alanı Poliklinik + yardımcı
+                      tesisler
+                    </span>
+                  </div>
+                </div>
               </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <div style="height: 450px" class="card card-body">
+                    <h5>Oryataş Ümraniye Oryapark Konutları</h5>
+
+                    <span>
+                      <h6>Projenin Konumu :</h6>
+                      İstanbul
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Projenin Yılı :</h6>
+                      2011
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Proje İçin İrtibat :</h6>
+                      Mert TAŞ / 0212 252 52 80
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Açıklama :</h6>
+                      <p></p>
+                      Toplam 115.000 m² inşaat alanı
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <div style="height: 450px" class="card card-body">
+                    <h5>Koçak Gold Generali Binası</h5>
+
+                    <span>
+                      <h6>Projenin Konumu :</h6>
+                      İstanbul
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Projenin Yılı :</h6>
+                      2012
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Proje İçin İrtibat :</h6>
+                      İsmet KOÇAK
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Açıklama :</h6>
+                      <p></p>
+                      Toplam 6.000 m² inşaat alanı
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <div style="height: 450px" class="card card-body">
+                    <h5>Polat Holding Mahmutbey Oteli</h5>
+
+                    <span>
+                      <h6>Projenin Konumu :</h6>
+                      İstanbul
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Projenin Yılı :</h6>
+                      2013
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Proje İçin İrtibat :</h6>
+                      Namık ÜNLÜ / 0212 212 00 44
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Açıklama :</h6>
+                      <p></p>
+                      Toplam 56.000 m² inşaat alanı
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <div style="height: 450px" class="card card-body">
+                    <h5>Garanti Bankası Pendik Otomasyon Merkezi</h5>
+
+                    <span>
+                      <h6>Projenin Konumu :</h6>
+                      İstanbul-Pendik
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Projenin Yılı :</h6>
+                      2012
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Proje İçin İrtibat :</h6>
+                      Fahrettin ÇİLOĞLU / 0216 455 92 10
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Açıklama :</h6>
+                      <p></p>
+                      Toplam 142.000 m² inşaat alanı
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <div style="height: 450px" class="card card-body">
+                    <h5>Suryapı İzmir Rezidanz + AVM</h5>
+
+                    <span>
+                      <h6>Projenin Konumu :</h6>
+                      İzmir
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Projenin Yılı :</h6>
+                      2013
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Proje İçin İrtibat :</h6>
+                      Altan ELMAS / 0216 422 56 37
+                    </span>
+                    <hr />
+                    <span>
+                      <h6>Açıklama :</h6>
+                      <p></p>
+                      Toplam 125.000 m² inşaat alanı
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"
+              id="carousel-control-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"
+              id="carousel-control-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <a class="btn btn-primary font-weight-bold py-3 px-5 mt-5" type="button" data-toggle="modal"
+            data-target="#exampleModalLong">Tüm Projeler</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects End -->
+
+  <!-- Contact Start -->
+  <div class="container-fluid py-0" id="contact">
+    <div class="container py-5">
+      <div class="section-title position-relative text-center title">
+        <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px">
+          İletişim
+        </h6>
+        <h1 class="font-secondary display-4">İletişime Geç</h1>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="contact-form">
+            <div id="success"></div>
+            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+              <div class="form-row">
+                <div class="col-sm-6 control-group">
+                  <input type="text" class="form-control bg-secondary border-0 py-4 px-3" id="name" placeholder="İsim"
+                    required="required" data-validation-required-message="Lütfen İsminizi Giriniz" />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="col-sm-6 control-group">
+                  <input type="email" class="form-control bg-secondary border-0 py-4 px-3" id="email"
+                    placeholder="E-Posta" required="required"
+                    data-validation-required-message="Lütfen E-Posta Adresinizi Giriniz" />
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <input type="text" class="form-control bg-secondary border-0 py-4 px-3" id="subject"
+                  placeholder="Başlık" required="required"
+                  data-validation-required-message="Lütfen Bir Başlık Giriniz" />
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="control-group">
+                <textarea class="form-control bg-secondary border-0 py-2 px-3" rows="6" id="message" placeholder="Mesaj"
+                  required="required" data-validation-required-message="Lütfen Bir Mesaj Giriniz"></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="text-center">
+                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" id="sendMessageButton">
+                  Mesajı Gonder
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact End -->
+
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px">
+    <div class="row pt-5">
+      <div class="col-12 mb-4 px-4">
+        <div class="row mb-5 p-4" style="background: rgba(256, 256, 256, 0.05)">
+          <div class="col-md-4">
+            <div class="text-md-center">
+              <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px">
+                Ofis
+              </h5>
+              <p class="mb-4 m-md-0">
+                Çilekli Cad. Sedir Sk. No:8 3.Levent / 34330 Beşiktaş -
+                İSTANBUL
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="text-md-center">
+              <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px">
+                Email
+              </h5>
+              <p class="mb-4 m-md-0">mpi@mpi.com.tr</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="text-md-center">
+              <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px">
+                Bizi Ara
+              </h5>
+              <p class="m-0">
+                Tel : (+90 212) 282 72 07 <br />
+                Faks :(+90 212) 283 59 29
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 col-md-12">
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <p>
+              Şirket yönetimi gerekmesi halinde özelliği olan projelerde
+              gerekli uzman kuruluşlardan ve Üniversitelerin ilgili
+              birimlerinden danışmanlık hizmeti de almaktadır.
+            </p>
+            <div class="d-flex justify-content-start mt-4">
+              <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-5">
+            <iframe style="width: 470px; padding-right: 120px"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3007.175909668423!2d29.019374999999997!3d41.087002999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab67251511cdf%3A0xc552f7b315e3a2e5!2zTVDEsCBNw5xIRU5ExLBTTMSwSyAvIE1QSSBFTkdJTkVFUklORw!5e0!3m2!1sen!2s!4v1400595601314"
+              width="668" height="200" frameborder="0" style="border: 0"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-12 mb-5">
+        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px">
+          E-Bülten Üyelik
+        </h5>
+        <p>
+          Bizimle ilgili en son haberlere ulaşmak için e-mail listemize kayıt
+          olabilirsiniz.
+        </p>
+        <div class="w-100">
+          <div class="input-group">
+            <input type="text" class="form-control border-light" style="padding: 30px"
+              placeholder="E-Posta Adresiniz" />
+            <div class="input-group-append">
+              <button class="btn btn-primary px-4">Gönder</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div
-      class="container-fluid bg-dark text-white text-center border-top py-4 px-sm-3 px-md-5"
-      style="border-color: rgba(256, 256, 256, 0.05) !important"
-    >
-      <p class="m-0 text-white">
-        &copy; <a href="/">MPI Muhendislik</a>. All Rights Reserved. Designed by
-        <a target="_blank" href="https://github.com/ertugakmann">Ertug Akman</a>
-      </p>
-    </div>
-    <!-- Footer End -->
+  </div>
+  <div class="container-fluid bg-dark text-white text-center border-top py-4 px-sm-3 px-md-5"
+    style="border-color: rgba(256, 256, 256, 0.05) !important">
+    <p class="m-0 text-white">
+      &copy; <a href="/">MPI Muhendislik</a>. All Rights Reserved. Designed by
+      <a target="_blank" href="https://github.com/ertugakmann">Ertug Akman</a>
+    </p>
+  </div>
+  <!-- Footer End -->
 
-    <!-- Scroll to Bottom -->
-    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+  <!-- Scroll to Bottom -->
+  <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"
-      ><i class="fa fa-angle-double-up"></i
-    ></a>
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+  <!-- Contact Javascript File -->
+  <script src="mail/jqBootstrapValidation.min.js"></script>
+  <script src="mail/contact.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
 
-    <!-- ScrollReveal Javascript -->
-    <script>
-      ScrollReveal({
-        reset: true,
-        distance: "25rem",
-        duration: 1000,
-        delay: 300,
-      });
+  <script src="js/main.js"></script>
+  <script src="js/reveal.js"></script>
 
-      ScrollReveal().reveal(".anime-right", { delay: 300, origin: "right" });
-      ScrollReveal().reveal(".anime-left", { delay: 300, origin: "left" });
-      ScrollReveal().reveal(".title", { delay: 300, distance: "18px" });
-    </script>
-  </body>
+
+</body>
+
 </html>
