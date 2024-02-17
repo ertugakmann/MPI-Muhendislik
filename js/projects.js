@@ -1,59 +1,91 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const projects = [
-    { title: "Project A", status: "devam", tags: ["otel", "konut"] },
-    // Add more project objects as needed
-  ];
+const completedProjects = document.querySelectorAll(".completed");
+const goingProjects = document.querySelectorAll(".going");
+const allProjects = document.querySelectorAll(".all");
 
-  const projectsContent = document.querySelector(".projects-content");
+console.log(completedProjects);
 
-  // Function to create project item
-  function createProjectItem(project) {
-    const projectItem = document.createElement("div");
-    projectItem.className = "project-item";
-    projectItem.setAttribute("data-status", project.status);
-    projectItem.setAttribute("data-tags", project.tags.join(","));
-    projectItem.textContent = project.title;
-    projectsContent.appendChild(projectItem);
-  }
-
-  // Function to filter projects based on selected filters
-  function updateProjects() {
-    const selectedStatus = document.querySelector(
-      'input[name="project-status"]:checked'
-    ).value;
-    const selectedTags = Array.from(
-      document.querySelectorAll('input[name="tag"]:checked')
-    ).map((checkbox) => checkbox.value);
-
-    // Remove existing project items
-    projectsContent.innerHTML = "";
-
-    // Filter and create project items based on selected filters
-    projects.forEach((project) => {
-      if (
-        (selectedStatus === "tum" || project.status === selectedStatus) &&
-        (selectedTags.length === 0 ||
-          selectedTags.some((tag) => project.tags.includes(tag)))
-      ) {
-        createProjectItem(project);
-      }
-    });
-  }
-
-  // Add event listeners to filter controls
-  const projectStatusRadio = document.querySelectorAll(
-    'input[name="project-status"]'
-  );
-  const tagCheckboxes = document.querySelectorAll('input[name="tag"]');
-
-  projectStatusRadio.forEach((radio) => {
-    radio.addEventListener("change", updateProjects);
-  });
-
-  tagCheckboxes.forEach((checkbox) => {
-    checkbox.addEventListener("change", updateProjects);
-  });
-
-  // Initial project update
-  updateProjects();
+completedProjects.forEach((project) => {
+  project.addEventListener("click", requestToCompleteds);
 });
+
+goingProjects.forEach((project) => {
+  project.addEventListener("click", requestToGoings);
+});
+
+// Requests
+
+async function requestToGoings() {
+  try {
+    const response = await fetch("projects.json");
+
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
+
+    const json = await response.json();
+    const goings = json.goings;
+    renderProjects(goings);
+  } catch (error) {
+    console.error("There has been a problem with your fetch operation:", error);
+  }
+}
+
+async function requestToCompleteds() {
+  try {
+    const response = await fetch("projects.json");
+
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
+
+    const json = await response.json();
+    const completeds = json.completeds;
+    renderProjects(completeds);
+    console.log(completeds);
+  } catch (error) {
+    console.error("There has been a problem with your fetch operation:", error);
+  }
+}
+
+async function renderProjects(projects) {
+  const projectContainer = document.querySelector(".projects-box");
+  const projectsMom = document.querySelector(".projects-div");
+
+  // Clear existing projects
+
+  projects.forEach((project) => {
+    const projectDiv = document.createElement("div");
+    projectDiv.classList.add("project");
+
+    const title = document.createElement("h6");
+    title.style.paddingLeft = "15px";
+    title.style.paddingTop = "15px";
+    title.innerHTML = project.title;
+
+    const locationSpan = document.createElement("span");
+    locationSpan.style.paddingLeft = "15px";
+    locationSpan.style.paddingTop = "15px";
+    locationSpan.innerHTML = `Location: <span>${project.location}</span><br/>`;
+
+    projectDiv.appendChild(title);
+    projectDiv.appendChild(locationSpan);
+
+    if (project.year) {
+      const yearSpan = document.createElement("span");
+      yearSpan.style.paddingLeft = "15px";
+      yearSpan.style.paddingTop = "15px";
+      yearSpan.innerHTML = `Year: <span>${project.year}</span>`;
+      projectDiv.appendChild(yearSpan);
+    }
+
+    if (project.communication) {
+      const communicationSpan = document.createElement("span");
+      communicationSpan.style.paddingLeft = "15px";
+      communicationSpan.style.paddingTop = "15px";
+      communicationSpan.innerHTML = `Communication: <span>${project.communication}</span>`;
+      projectDiv.appendChild(communicationSpan);
+    }
+
+    projectContainer.appendChild(projectDiv);
+  });
+}
