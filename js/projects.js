@@ -12,6 +12,10 @@ goingProjects.forEach((project) => {
   project.addEventListener("click", requestToGoings);
 });
 
+allProjects.forEach((project) => {
+  project.addEventListener("click", requestToAllProjects);
+});
+
 // Requests
 
 async function requestToGoings() {
@@ -47,10 +51,28 @@ async function requestToCompleteds() {
   }
 }
 
+async function requestToAllProjects() {
+  try {
+    const response = await fetch("projects.json");
+
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
+
+    const json = await response.json();
+    const allprojects = json.all;
+    renderProjects(allprojects);
+    console.log(allprojects);
+  } catch (error) {
+    console.error("There has been a problem with your fetch operation:", error);
+  }
+}
+
 async function renderProjects(projects) {
   const projectContainer = document.querySelector(".projects-box");
   const projectsMom = document.querySelector(".projects-div");
 
+  console.log(projects);
   // Clear existing projects
 
   projects.forEach((project) => {
@@ -82,8 +104,24 @@ async function renderProjects(projects) {
       const communicationSpan = document.createElement("span");
       communicationSpan.style.paddingLeft = "15px";
       communicationSpan.style.paddingTop = "15px";
-      communicationSpan.innerHTML = `Communication: <span>${project.communication}</span>`;
+      communicationSpan.innerHTML = `Communication: <span>${project.communication}</span> </br>`;
       projectDiv.appendChild(communicationSpan);
+    }
+
+    if (project.contact) {
+      const contactSpan = document.createElement("span");
+      contactSpan.style.paddingLeft = "15px";
+      contactSpan.style.paddingTop = "15px";
+      contactSpan.innerHTML = `Contact: <span>${project.contact}</span></br>`;
+      projectDiv.appendChild(contactSpan);
+    }
+
+    if (project.description) {
+      const descriptionSpan = document.createElement("span");
+      descriptionSpan.style.paddingLeft = "15px";
+      descriptionSpan.style.paddingTop = "15px";
+      descriptionSpan.innerHTML = `Description: <span>${project.description}</span>`;
+      projectDiv.appendChild(descriptionSpan);
     }
 
     projectContainer.appendChild(projectDiv);
