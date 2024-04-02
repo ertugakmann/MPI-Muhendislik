@@ -1,6 +1,8 @@
 const completedProjects = document.querySelectorAll(".completed");
 const goingProjects = document.querySelectorAll(".going");
 const allProjects = document.querySelectorAll(".all");
+const projectTitle = document.getElementById("project-title");
+
 
 console.log(completedProjects); // Log to check element selection
 
@@ -31,6 +33,7 @@ async function requestToGoings() {
     const json = await response.json();
     const goings = json.goings; // Assuming property name is 'goings'
     renderProjects(goings);
+    setTitleProjects("Devam Eden Projeler");
   } catch (error) {
     console.error("There has been a problem with your fetch operation:", error);
   }
@@ -48,6 +51,7 @@ async function requestToCompleteds() {
     const completeds = json.completeds; // Assuming property name is 'completeds'
     renderProjects(completeds);
     console.log(completeds);
+    setTitleProjects("Tamamlanan Projeler");
   } catch (error) {
     console.error("There has been a problem with your fetch operation:", error);
   }
@@ -65,6 +69,7 @@ async function requestToAllProjects() {
     const allprojects = json.all; // Assuming property name is 'all'
     renderProjects(allprojects);
     console.log(allprojects);
+    setTitleProjects("Tüm Projeler");
   } catch (error) {
     console.error("There has been a problem with your fetch operation:", error);
   }
@@ -142,4 +147,8 @@ async function renderProjects(projects) {
     projectsWrapper.appendChild(projectDiv); // Append to wrapper directly
   });
   projectContainer.appendChild(projectsWrapper); // Assuming you want it in body
+}
+
+function setTitleProjects(title){
+  projectTitle.innerHTML = title;
 }
