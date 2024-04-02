@@ -33,13 +33,54 @@
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="51">
+
+ <!-- Navbar Start -->
+    <nav style="display: flex; z-index: 1; "
+      class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-1 py-lg-0 px-lg-5"
+    >
+      <a href="index.html" class="navbar-brand d-block d-lg-none">
+        <img
+          style="height: 50px"
+          src="https://lh3.googleusercontent.com/proxy/-Q64xdGZGU14F1Dh2bNUwY4i51Mx7OkYZgDqBr46H3NOH0hKuV4RqDgY40szILTZIDj-Ed8CioOoGESH3l2Wdg"
+        />
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-between"
+        id="navbarCollapse"
+      >
+        <div style="margin-right: 70px" class="navbar-nav ml-auto py-0">
+          <a href="index.html#home" class="nav-item nav-link active">Ana Sayfa</a>
+          <a href="index.html#about" class="nav-item nav-link">Hakkımızda</a>
+        </div>
+        <a href="index.html" class="navbar-brand px-4 mx-3 d-none d-lg-block">
+          <img
+            style="height: 70px; width: 70px; margin-right: 120px"
+            src="https://lh3.googleusercontent.com/proxy/-Q64xdGZGU14F1Dh2bNUwY4i51Mx7OkYZgDqBr46H3NOH0hKuV4RqDgY40szILTZIDj-Ed8CioOoGESH3l2Wdg"
+          />
+        </a>
+        <div class="navbar-nav mr-auto py-0">
+          <a href="index.html#faqs" class="nav-item nav-link">Projeler</a>
+          <a href="index.html#contact" class="nav-item nav-link">İletişim</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
     <!-- Projects Start -->
 
     <div class="projects-container">
-      <div class="projects-card">
+      <div class="projects-card" style="margin-top: 100px;">
         <div
-          class="section-title position-relative text-center title"
-          style="visibility: visible"
+          class="section-title text-center title"
+          style="visibility: visible; padding-bottom: 0; margin-bottom: 0;"
         >
           <h6
             class="text-uppercase text-primary mb-3"
@@ -47,147 +88,36 @@
           >
             Proje
           </h6>
-          <h1 class="font-secondary display-4" style="color: #22395d">
+          <h1 class="font-secondary display-4" style="color: #22395d; position: sticky;">
             Projeler
           </h1>
         </div>
         <div class="projects-content">
-          <div class="checkboxes">
-            <div class="checkbox">
-              <input type="checkbox" class="all" checked />
-              <label for="all">Tümü</label>
-            </div>
-            <div class="checkbox">
-              <input type="checkbox" class="going" />
-              <label for="civil">Devam Eden Projelerimiz</label>
-            </div>
-            <div class="checkbox">
-              <input type="checkbox" class="completed" />
-              <label for="mechanical">Tamamlanmış Projelerimiz</label>
-            </div>
-          </div>
+          <div class="button-wrapper">
+          <button class="all">
+            Tüm Projeler
+          </button>
+          <button class="completed">
+            Tamamlanan Projeler
+          </button>
+          <button class="going">
+            Devam Eden Projeler
+          </button>
+        </div>
+        <h3
+        id="project-title"
+        class="text-uppercase mb-3 mt-3 project-title"
+        style="letter-spacing: 2px; color: #22385D; text-align: center;"
+      >
+        Tüm Projeler
+      </h3>
           <div class="projects-box"></div>
         </div>
       </div>
     </div>
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5">
-      <div class="row pt-5">
-        <div class="col-12 mb-4 px-4">
-          <div
-            class="row mb-5 p-4"
-            style="background: rgba(256, 256, 256, 0.05)"
-          >
-            <div class="col-md-4">
-              <div class="text-md-center">
-                <h5
-                  class="text-primary text-uppercase mb-2"
-                  style="letter-spacing: 5px"
-                >
-                  Ofis
-                </h5>
-                <p class="mb-4 m-md-0">
-                  Çilekli Cad. Sedir Sk. No:8 3.Levent / 34330 Beşiktaş -
-                  İSTANBUL
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="text-md-center">
-                <h5
-                  class="text-primary text-uppercase mb-2"
-                  style="letter-spacing: 5px"
-                >
-                  Email
-                </h5>
-                <p class="mb-4 m-md-0">mpi@mpi.com.tr</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="text-md-center">
-                <h5
-                  class="text-primary text-uppercase mb-2"
-                  style="letter-spacing: 5px"
-                >
-                  Bizi Ara
-                </h5>
-                <p class="m-0">
-                  Tel : (+90 212) 282 72 07 <br />
-                  Faks :(+90 212) 283 59 29
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-7 col-md-12">
-          <div class="row">
-            <div class="col-md-6 mb-5">
-              <p>
-                Şirket yönetimi gerekmesi halinde özelliği olan projelerde
-                gerekli uzman kuruluşlardan ve Üniversitelerin ilgili
-                birimlerinden danışmanlık hizmeti de almaktadır.
-              </p>
-              <div class="d-flex justify-content-start mt-4">
-                <a
-                  class="btn btn-lg btn-outline-light btn-lg-square mr-2"
-                  href="#"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a
-                  class="btn btn-lg btn-outline-light btn-lg-square mr-2"
-                  href="#"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a
-                  class="btn btn-lg btn-outline-light btn-lg-square mr-2"
-                  href="#"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-                <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-              </div>
-            </div>
-            <div class="col-md-6 mb-5">
-              <iframe
-                style="width: 470px; padding-right: 120px"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3007.175909668423!2d29.019374999999997!3d41.087002999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab67251511cdf%3A0xc552f7b315e3a2e5!2zTVDEsCBNw5xIRU5ExLBTTMSwSyAvIE1QSSBFTkdJTkVFUklORw!5e0!3m2!1sen!2s!4v1400595601314"
-                width="668"
-                height="200"
-                frameborder="0"
-                style="border: 0"
-              ></iframe>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 col-md-12 mb-5">
-          <h5
-            class="text-primary text-uppercase mb-4"
-            style="letter-spacing: 5px"
-          >
-            E-Bülten Üyelik
-          </h5>
-          <p>
-            Bizimle ilgili en son haberlere ulaşmak için e-mail listemize kayıt
-            olabilirsiniz.
-          </p>
-          <div class="w-100">
-            <div class="input-group">
-              <input
-                type="text"
-                class="form-control border-light"
-                style="padding: 30px"
-                placeholder="E-Posta Adresiniz"
-              />
-              <div class="input-group-append">
-                <button class="btn btn-primary px-4">Gönder</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+   
     <div
       class="container-fluid bg-dark text-white text-center border-top py-4 px-sm-3 px-md-5"
       style="border-color: rgba(256, 256, 256, 0.05) !important"
@@ -212,6 +142,14 @@
     </script>
 
     <!-- JavaScript Libraries -->
+   
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script src="js/projects.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
@@ -220,14 +158,9 @@
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
 
-    <script src="js/main.js"></script>
+    <!-- Contact Javascript File -->
+  
     <script src="js/reveal.js"></script>
-    <script src="js/projects.js"></script>
   </body>
 </html>

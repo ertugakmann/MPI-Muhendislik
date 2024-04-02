@@ -10764,25 +10764,6 @@ h6 {
   padding-bottom: 20px;
 }
 
-.section-title::before {
-  position: absolute;
-  content: "";
-  width: 150px;
-  height: 2px;
-  bottom: 12px;
-  left: calc(50% - 75px);
-  background: #009cff;
-}
-
-.section-title::after {
-  position: absolute;
-  content: "";
-  width: 120px;
-  height: 2px;
-  bottom: 8px;
-  left: calc(50% - 60px);
-  background: #009cff;
-}
 
 .product-img,
 .gallery-item {
