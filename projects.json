@@ -1,239 +1,264 @@
-{
-  "completeds": [
-    {
-      "title": "Oryataş Ümraniye Oryapark Konutları []",
-      "location": "İstanbul",
-      "communacition": "Mert TAŞ / 0212 252 52 80",
-      "year": "1999",
-      "contact": "Gürol GERÇEL",
-      "description": "Toplam 115.000 m² inşaat alanı"
-    },
-    {
-      "title": "Abka İnşaat Flora Evleri - Ataşehir",
-      "location": "İstanbul",
-      "year": "1998",
-      "contact":"Senih KUTAY / 0216 456 24 04",
-      "description": "Toplam 38.000 m² inşaat alanı 11 katlı 10 adet konut + Kapalı garaj"
-    },
-{
-      "title": "Abka İnşaat Kıraç Konutları",
-      "location": "İstanbul",
-      "year": "1999",
-      "contact":"Senih KUTAY / 0216 456 24 04",
-      "description": "Toplam 16.000 m² inşaat alanı (Tünel Kalıp) 10 katlı 4 adet konut"
-    },
-    {
-      "title": "Aktif İnşaat Rusya Thyumen Poliklinik Binası []",
-      "location": "Rusya",
-      "year": "1999",
-      "contact":"Engin SEVİMLİ / 0212 241 51 37",
-      "description": "Toplam 10.000 m² inşaat alanı Poliklinik + yardımcı tesisler"
-    },{
-      "title": "Altur A.Ş. İkitelli Büro Binası",
-      "location": "İstanbul",
-      "year": "2000",
-      "contact":"Aydın İnşaat",
-      "description": "Toplam 10.000 m² inşaat alanı (proje + mesleki kontrollük hizmetleri) 4 katlı ofis + garaj (Takviye projeleri + yeni yapı)"
-    },{
-      "title": "Arıkanlı Holding Silivri Otel Binası []",
-      "location": "İstanbul",
-      "year": "2000",
-      "contact":"İbrahim ARIKAN / 0212 290 61 00",
-      "description": "Toplam 18.000m² inşaat alanı 6 katlı Otel binası (proje + mesleki kontrollük hizmetleri)"
-    },{
-      "title": "Baytur A,Ş. Erzurum Turkcell Tesisleri []",
-      "location": "Erzurum",
-      "year": "2000",
-      "contact":"Ahmet İYBAR / 0532 291 58 54",
-      "description": "Toplam 2.500 m² inşaat alanı 3 katlı ofis + GSM + Çelik çatı (takviye projeleri)"
-    },{
-      "title": "Baytur A.Ş. Aydın Türkcell Tesisleri []",
-      "location": "Aydın",
-      "year": "2000",
-      "contact":"Ahmet İYBAR / 0532 291 58 54",
-      "description": "Toplam 4.000 m² inşaat alanı 3 katlı ofis + GSM (Takviye projeleri)"
-    },{
-      "title": "Ferko İnşaat Azerbaycan Sefirlik []",
-      "location": "Azerbaycan",
-      "year": "1999",
-      "contact":"Gürol GERÇEL",
-      "description": "Toplam 8.000 m² inşaat alanı Sefirlik personel + ofis binası"
-    },{
-      "title": "Gürmaş A.Ş. Silivri Çiftlik Tesisleri []",
-      "location": "İstanbul",
-      "year": "1999",
-      "contact":"İbrahim ARIKAN / 0212 290 61 00",
-      "description": "Toplam 12.100 m² inşaat alanı (proje + mesleki kontrollük hizmetleri) Manej, Ahır + Restoran binaları"
-    },
-    {
-      "title": "Maçka Palas []",
-      "location": "İstanbul",
-      "year": "1997",
-      "contact":"Turgut ALTINSOY / 0216 589 04 40",
-      "description": "Toplam 12.000 m² inşaat alanı"
-    },{
-      "title": "Hürriyet Antalya Baskı Tesisleri []",
-      "location": "İstanbul",
-      "year": "1999",
-      "contact":"Nezih KUTAY / 0212 478 54 06",
-      "description": "Toplam 12.100 m² inşaat alanı (proje + mesleki kontrollük hizmetleri) Manej, Ahır + Restoran binaları"
-    },{
-      "title": "Leylam Tekstil Atölye Binası - Pendik []",
-      "location": "İstanbul",
-      "year": "1998",
-      "contact":"Güneş BECERAL / 0533 734 60 18",
-      "description": "Toplam 8.000 m² inşaat alanı 6 katlı atölye + ofis blok"
-    },{
-      "title": "Kilerci Matbaa Tesisleri - İkitelli []",
-      "location": "İstanbul",
-      "year": "1999",
-      "contact":"Mahmut ÇATAKLI / 0216 521 29 60",
-      "description": "Toplam 24.000 m² inşaat alanı (proje + mesleki kontrollük hizmetleri) idari bölümler + matbaa tesisleri"
-    },{
-      "title": "MEF Okulları İlave Havuz + Okul Binaları []",
-      "location": "MEF Okulları İlave Havuz + Okul Binaları []",
-      "year": "MEF Okulları İlave Havuz + Okul Binaları []",
-      "contact":"İbrahim ARIKAN / 0212 290 61 00",
-      "description": "Toplam 10.000 m² inşaat alanı 24 m açıklıklı betonarme havuz + 4 katlı çelik yapı"
-    },{
-      "title": "Multi Türk Mall Forum Marmara Alışveriş Merkezi []",
-      "location": "İstanbul",
-      "year": "2009",
-      "contact":"Murat CENGİZ / 0212 251 21 11",
-      "description": "Toplam 400.000 m² inşaat alanı"
-    },{
-      "title": "Özen İş Merkezi - Maslak []",
-      "location": "İstanbul",
-      "year": "1998",
-      "contact":"Erdem ALP / 0212 217 81 00",
-      "description": "Toplam 22.000 m² inşaat alanı 26 katlı ofis blok + 7 katlı garaj blok"
-    },{
-      "title": "Özen İş Merkezi - Maslak []",
-      "location": "İstanbul",
-      "year": "1998",
-      "contact":"Erdem ALP / 0212 217 81 00",
-      "description": "Toplam 18.000 m² inşaat alanı 14 katlı ofis blok + 7 katlı garaj blok"
-    },{
-      "title": "Palmiye Şirketler Grubu - Beykoz []",
-      "location": "İstanbul",
-      "year": "1997",
-      "contact":"Erdem ALP / 0212 217 81 00",
-      "description": "Toplam 10.000 m² inşaat alanı 3 katlı 11 adet yapı"
-    },{
-      "title": "Saray Grup Güneşli Konut+Otel+Ofis []",
-      "location": "İstanbul",
-      "year": "2011",
-      "contact":"Sinan KAFADAR / 0212 267 08 75",
-      "description": "Toplam 72.000 m² inşaat alanı"
-    },{
-      "title": "Sabah Gazetesi Samandra Tesisleri []",
-      "location": "İstanbul",
-      "year": "2000",
-      "contact":"Kemal ENGİNSOY / 0212 595 91 00",
-      "description": "Toplam 15.000 m² inşaat alanı (proje + mesleki kontrolluk hizmetleri) Yüksek baskı holü + idare binası"
-    },{
-      "title": "Suryapı Exen İstanbul Konutları []",
-      "location": "İstanbul",
-      "year": "2010-2011",
-      "contact":"Altan ELMAS / 0216 422 56 37",
-      "description": "Toplam 180.000 m² inşaat alanı"
-    },{
-      "title": "Suryapı Metro Garden Konutları []",
-      "location": "İstanbul",
-      "year": "2011",
-      "contact":"Altan ELMAS / 0216 422 56 37",
-      "description": "Toplam 80.000 m² inşaat alanı"
-    },{
-      "title": "Temsa Otomotiv Adana Showroom Tesisleri []",
-      "location": "Adana",
-      "year": "1998",
-      "contact":"Ali SELAM / 0212 243 96 63",
-      "description": "Toplam 4.000 m² inşaat alanı İdari bölümler + Showroom"
-    },{
-      "title": "Yet Yapı İnşaat Gürpınar Konutları []",
-      "location": "İstanbul",
-      "year": "1999",
-      "contact":"Ali KIRMACI / 0532 426 40 41",
-      "description": "Toplam 30.000 m² inşaat alanı (Tünel kalıp) 10 katlı 4 adet konut"
-    },{
-      "title": "Yurtiçi Kargo Adana Aktarma Tesisleri []",
-      "location": "Adana",
-      "year": "1999",
-      "contact":"İbrahim ARIKAN / 0212 290 61 00",
-      "description": "Toplam 15.000 m² inşaat alanı (proje + mesleki kontrollük işleri) 4 aktlı ofis + 30x100 m aktarma binası"
-    },
-    {
-      "title": "Yurtiçi Kargo Bursa Aktarma Tesisleri []",
-      "location": "Bursa",
-      "year": "1999",
-      "contact":"İbrahim ARIKAN / 0212 290 61 00",
-      "description": "Toplam 6.000 m² inşaat alanı 4 katlı ofis + 36x70 m aktarma binaları"
-    },
-    {
-      "title": "Yurtiçi Kargo İzmir Aktarma Tesisleri []",
-      "location": "İzmir",
-      "year": "1999",
-      "contact":"İbrahim ARIKAN / 0212 290 61 00",
-      "description": "Toplam 6.000 m² inşaat alanı 4 katlı ofis + 36x70 m aktarma binaları"
-    },{
-      "title": "Yurtiçi Kargo Haramidere Aktarma tesisleri []",
-      "location": "İstanbul",
-      "year": "1999",
-      "contact":"İbrahim ARIKAN / 0212 290 61 00",
-      "description": "Toplam 6.000 m² inşaat alanı 4 katlı ofis + 36x70 m aktarma binaları"
-    },{
-      "title": "Yurtiçi Kargo Samandıra Aktarma Tesisleri []",
-      "location": "İstanbul",
-      "year": "1999",
-      "contact":"İbrahim ARIKAN / 0212 290 61 00",
-      "description": "Toplam 6.000 m² inşaat alanı 4 katlı ofis + 36x70 m aktarma binaları"
-    },{
-      "title": "Yurtiçi Katgo Güneşli Genel Müfürlük Binası []",
-      "location": "İstanbul",
-      "year": "1999",
-      "contact":"İbrahim ARIKAN / 0212 290 61 00",
-      "description": "Toplam 15.000 m² inşaat alanı 9 katlı ofis binası"
-    },{
-      "title": "Ferko-Mesa Kağıthane Metro Ofis []",
-      "location": "İstanbul",
-      "year": "2009",
-      "contact":"Murat CENGİZ / 0212 251 21 11",
-      "description": "Toplam 40.000 m² inşaat alanı"
-    },
-    {
-      "title": "Doğuş Gayrimenkul Gebze Alışveriş Merkezi []",
-      "location": "İstanbul-Gebze",
-      "year": "2008",
-      "contact":"Altuğ AKBAYTÜRK / 0212 335 32 59",
-      "description": "Toplam 168.000 m² inşaat alanı"
-    },
-    {
-      "title": "Doğuş Gayrimenkul Gebze Oteli []",
-      "location": "Kocaeli",
-      "year": "2009",
-      "contact":"Murat CENGİZ / 0212 251 21 11",
-      "description": "Toplam 40.000 m² inşaat alanı"
-    },
-    {
-      "title": "Suryapı Tilia Taşdelen Konutları []",
-      "location": "İstanbul",
-      "year": "2013",
-      "contact":"Ramiz SOYLU / 0542 432 72 73",
-      "description": "Toplam 45.000 m² inşaat alanı"
-    },
-    {
-      "title": "Ciner Holding Ciner İş Merkezi - Zincirlikuyu []",
-      "location": "İstanbul",
-      "year": "2011",
-      "contact":"Nurettin AKSOYLU / 0212 313 60 00",
-      "description": "Toplam 15.000 m² inşaat alanı"
-    }
 
-  ],
+  {
+    "completeds": [
+      {
+        "title": "Oryataş Ümraniye Oryapark Konutları",
+        "location": "İstanbul",
+        "communacition": "Mert TAŞ / 0212 252 52 80",
+        "year": "1999",
+        "contact": "Gürol GERÇEL",
+        "description": "Toplam 115.000 m² inşaat alanı"
+      },
+      {
+        "title": "Abka İnşaat Flora Evleri - Ataşehir",
+        "location": "İstanbul",
+        "year": "1998",
+        "contact": "Senih KUTAY / 0216 456 24 04",
+        "description": "Toplam 38.000 m² inşaat alanı 11 katlı 10 adet konut + Kapalı garaj"
+      },
+      {
+        "title": "Abka İnşaat Kıraç Konutları",
+        "location": "İstanbul",
+        "year": "1999",
+        "contact": "Senih KUTAY / 0216 456 24 04",
+        "description": "Toplam 16.000 m² inşaat alanı (Tünel Kalıp) 10 katlı 4 adet konut"
+      },
+      {
+        "title": "Aktif İnşaat Rusya Thyumen Poliklinik Binası",
+        "location": "Rusya",
+        "year": "1999",
+        "contact": "Engin SEVİMLİ / 0212 241 51 37",
+        "description": "Toplam 10.000 m² inşaat alanı Poliklinik + yardımcı tesisler"
+      },
+      {
+        "title": "Altur A.Ş. İkitelli Büro Binası",
+        "location": "İstanbul",
+        "year": "2000",
+        "contact": "Aydın İnşaat",
+        "description": "Toplam 10.000 m² inşaat alanı (proje + mesleki kontrollük hizmetleri) 4 katlı ofis + garaj (Takviye projeleri + yeni yapı)"
+      },
+      {
+        "title": "Arıkanlı Holding Silivri Otel Binası",
+        "location": "İstanbul",
+        "year": "2000",
+        "contact": "İbrahim ARIKAN / 0212 290 61 00",
+        "description": "Toplam 18.000m² inşaat alanı 6 katlı Otel binası (proje + mesleki kontrollük hizmetleri)"
+      },
+      {
+        "title": "Baytur A,Ş. Erzurum Turkcell Tesisleri",
+        "location": "Erzurum",
+        "year": "2000",
+        "contact": "Ahmet İYBAR / 0532 291 58 54",
+        "description": "Toplam 2.500 m² inşaat alanı 3 katlı ofis + GSM + Çelik çatı (takviye projeleri)"
+      },
+      {
+        "title": "Baytur A.Ş. Aydın Türkcell Tesisleri",
+        "location": "Aydın",
+        "year": "2000",
+        "contact": "Ahmet İYBAR / 0532 291 58 54",
+        "description": "Toplam 4.000 m² inşaat alanı 3 katlı ofis + GSM (Takviye projeleri)"
+      },
+      {
+        "title": "Ferko İnşaat Azerbaycan Sefirlik",
+        "location": "Azerbaycan",
+        "year": "1999",
+        "contact": "Gürol GERÇEL",
+        "description": "Toplam 8.000 m² inşaat alanı Sefirlik personel + ofis binası"
+      },
+      {
+        "title": "Gürmaş A.Ş. Silivri Çiftlik Tesisleri",
+        "location": "İstanbul",
+        "year": "1999",
+        "contact": "İbrahim ARIKAN / 0212 290 61 00",
+        "description": "Toplam 12.100 m² inşaat alanı (proje + mesleki kontrollük hizmetleri) Manej, Ahır + Restoran binaları"
+      },
+      {
+        "title": "Maçka Palas",
+        "location": "İstanbul",
+        "year": "1997",
+        "contact": "Turgut ALTINSOY / 0216 589 04 40",
+        "description": "Toplam 12.000 m² inşaat alanı"
+      },
+      {
+        "title": "Hürriyet Antalya Baskı Tesisleri",
+        "location": "İstanbul",
+        "year": "1999",
+        "contact": "Nezih KUTAY / 0212 478 54 06",
+        "description": "Toplam 12.100 m² inşaat alanı (proje + mesleki kontrollük hizmetleri) Manej, Ahır + Restoran binaları"
+      },
+      {
+        "title": "Leylam Tekstil Atölye Binası - Pendik",
+        "location": "İstanbul",
+        "year": "1998",
+        "contact": "Güneş BECERAL / 0533 734 60 18",
+        "description": "Toplam 8.000 m² inşaat alanı 6 katlı atölye + ofis blok"
+      },
+      {
+        "title": "Kilerci Matbaa Tesisleri - İkitelli",
+        "location": "İstanbul",
+        "year": "1999",
+        "contact": "Mahmut ÇATAKLI / 0216 521 29 60",
+        "description": "Toplam 24.000 m² inşaat alanı (proje + mesleki kontrollük hizmetleri) idari bölümler + matbaa tesisleri"
+      },
+      {
+        "title": "MEF Okulları İlave Havuz + Okul Binaları",
+        "location": "MEF Okulları İlave Havuz + Okul Binaları",
+        "year": "MEF Okulları İlave Havuz + Okul Binaları",
+        "contact": "İbrahim ARIKAN / 0212 290 61 00",
+        "description": "Toplam 10.000 m² inşaat alanı 24 m açıklıklı betonarme havuz + 4 katlı çelik yapı"
+      },
+      {
+        "title": "Multi Türk Mall Forum Marmara Alışveriş Merkezi",
+        "location": "İstanbul",
+        "year": "2009",
+        "contact": "Murat CENGİZ / 0212 251 21 11",
+        "description": "Toplam 400.000 m² inşaat alanı"
+      },
+      {
+        "title": "Özen İş Merkezi - Maslak",
+        "location": "İstanbul",
+        "year": "1998",
+        "contact": "Erdem ALP / 0212 217 81 00",
+        "description": "Toplam 22.000 m² inşaat alanı 26 katlı ofis blok + 7 katlı garaj blok"
+      },
+      {
+        "title": "Özen İş Merkezi - Maslak",
+        "location": "İstanbul",
+        "year": "1998",
+        "contact": "Erdem ALP / 0212 217 81 00",
+        "description": "Toplam 18.000 m² inşaat alanı 14 katlı ofis blok + 7 katlı garaj blok"
+      },
+      {
+        "title": "Palmiye Şirketler Grubu - Beykoz",
+        "location": "İstanbul",
+        "year": "1997",
+        "contact": "Erdem ALP / 0212 217 81 00",
+        "description": "Toplam 10.000 m² inşaat alanı 3 katlı 11 adet yapı"
+      },
+      {
+        "title": "Saray Grup Güneşli Konut+Otel+Ofis",
+        "location": "İstanbul",
+        "year": "2011",
+        "contact": "Sinan KAFADAR / 0212 267 08 75",
+        "description": "Toplam 72.000 m² inşaat alanı"
+      },
+      {
+        "title": "Sabah Gazetesi Samandra Tesisleri",
+        "location": "İstanbul",
+        "year": "2000",
+        "contact": "Kemal ENGİNSOY / 0212 595 91 00",
+        "description": "Toplam 15.000 m² inşaat alanı (proje + mesleki kontrolluk hizmetleri) Yüksek baskı holü + idare binası"
+      },
+      {
+        "title": "Suryapı Exen İstanbul Konutları",
+        "location": "İstanbul",
+        "year": "2010-2011",
+        "contact": "Altan ELMAS / 0216 422 56 37",
+        "description": "Toplam 180.000 m² inşaat alanı"
+      },
+      {
+        "title": "Suryapı Metro Garden Konutları",
+        "location": "İstanbul",
+        "year": "2011",
+        "contact": "Altan ELMAS / 0216 422 56 37",
+        "description": "Toplam 80.000 m² inşaat alanı"
+      },
+      {
+        "title": "Temsa Otomotiv Adana Showroom Tesisleri",
+        "location": "Adana",
+        "year": "1998",
+        "contact": "Ali SELAM / 0212 243 96 63",
+        "description": "Toplam 4.000 m² inşaat alanı İdari bölümler + Showroom"
+      },
+      {
+        "title": "Yet Yapı İnşaat Gürpınar Konutları",
+        "location": "İstanbul",
+        "year": "1999",
+        "contact": "Ali KIRMACI / 0532 426 40 41",
+        "description": "Toplam 30.000 m² inşaat alanı (Tünel kalıp) 10 katlı 4 adet konut"
+      },
+      {
+        "title": "Yurtiçi Kargo Adana Aktarma Tesisleri",
+        "location": "Adana",
+        "year": "1999",
+        "contact": "İbrahim ARIKAN / 0212 290 61 00",
+        "description": "Toplam 15.000 m² inşaat alanı (proje + mesleki kontrollük işleri) 4 aktlı ofis + 30x100 m aktarma binası"
+      },
+      {
+        "title": "Yurtiçi Kargo Bursa Aktarma Tesisleri",
+        "location": "Bursa",
+        "year": "1999",
+        "contact": "İbrahim ARIKAN / 0212 290 61 00",
+        "description": "Toplam 6.000 m² inşaat alanı 4 katlı ofis + 36x70 m aktarma binaları"
+      },
+      {
+        "title": "Yurtiçi Kargo İzmir Aktarma Tesisleri",
+        "location": "İzmir",
+        "year": "1999",
+        "contact": "İbrahim ARIKAN / 0212 290 61 00",
+        "description": "Toplam 6.000 m² inşaat alanı 4 katlı ofis + 36x70 m aktarma binaları"
+      },
+      {
+        "title": "Yurtiçi Kargo Haramidere Aktarma tesisleri",
+        "location": "İstanbul",
+        "year": "1999",
+        "contact": "İbrahim ARIKAN / 0212 290 61 00",
+        "description": "Toplam 6.000 m² inşaat alanı 4 katlı ofis + 36x70 m aktarma binaları"
+      },
+      {
+        "title": "Yurtiçi Kargo Samandıra Aktarma Tesisleri",
+        "location": "İstanbul",
+        "year": "1999",
+        "contact": "İbrahim ARIKAN / 0212 290 61 00",
+        "description": "Toplam 6.000 m² inşaat alanı 4 katlı ofis + 36x70 m aktarma binaları"
+      },
+      {
+        "title": "Yurtiçi Katgo Güneşli Genel Müfürlük Binası",
+        "location": "İstanbul",
+        "year": "1999",
+        "contact": "İbrahim ARIKAN / 0212 290 61 00",
+        "description": "Toplam 15.000 m² inşaat alanı 9 katlı ofis binası"
+      },
+      {
+        "title": "Ferko-Mesa Kağıthane Metro Ofis",
+        "location": "İstanbul",
+        "year": "2009",
+        "contact": "Murat CENGİZ / 0212 251 21 11",
+        "description": "Toplam 40.000 m² inşaat alanı"
+      },
+      {
+        "title": "Doğuş Gayrimenkul Gebze Alışveriş Merkezi",
+        "location": "İstanbul-Gebze",
+        "year": "2008",
+        "contact": "Altuğ AKBAYTÜRK / 0212 335 32 59",
+        "description": "Toplam 168.000 m² inşaat alanı"
+      },
+      {
+        "title": "Doğuş Gayrimenkul Gebze Oteli",
+        "location": "Kocaeli",
+        "year": "2009",
+        "contact": "Murat CENGİZ / 0212 251 21 11",
+        "description": "Toplam 40.000 m² inşaat alanı"
+      },
+      {
+        "title": "Suryapı Tilia Taşdelen Konutları",
+        "location": "İstanbul",
+        "year": "2013",
+        "contact": "Ramiz SOYLU / 0542 432 72 73",
+        "description": "Toplam 45.000 m² inşaat alanı"
+      },
+      {
+        "title": "Ciner Holding Ciner İş Merkezi - Zincirlikuyu",
+        "location": "İstanbul",
+        "year": "2011",
+        "contact": "Nurettin AKSOYLU / 0212 313 60 00",
+        "description": "Toplam 15.000 m² inşaat alanı"
+      }
+    ],
 
   "goings": [
     {
-      "title": "Oryataş Ümraniye Oryapark Konutları []",
+      "title": "Oryataş Ümraniye Oryapark Konutları",
       "location": "İstanbul",
       "communacition": "Mert TAŞ / 0212 252 52 80",
       "year": "1999",
@@ -250,93 +275,101 @@
       "description": "Toplam 6.000 m² inşaat alanı"
     },
     {
-      "title": "Garanti Bankası Pendik Otomasyon Merkezi []",
+      "title": "Garanti Bankası Pendik Otomasyon Merkezi",
       "location": "İstanbul-Pendik",
       "year": "2012",
       "contact": "Fahrettin ÇİLOĞLU / 0216 455 92 10",
       "description": "Toplam 142.000 m² inşaat alanı"
     },
     {
-      "title": "Suryapı İzmir Rezidanz + AVM []",
+      "title": "Suryapı İzmir Rezidanz + AVM",
       "location": "İzmir",
       "year": "2013",
       "contact": "Altan ELMAS / 0216 422 56 37",
       "description": "Toplam 125.000 m² inşaat alanı"
     },
     {
-      "title": "Suryapı Axis İstanbul AVM []",
+      "title": "Suryapı Axis İstanbul AVM",
       "location": "İstanbul",
       "year": "2013",
       "contact": "Altan ELMAS / 0216 422 56 37",
       "description": "Toplam 125.000 m² inşaat alanı"
     },
     {
-      "title": "Ciner Asmalı Mescit Otel []",
+      "title": "Ciner Asmalı Mescit Otel",
       "location": "İstanbul",
       "year": "2013",
       "contact": "Nurettin AKKOYUNLU",
       "description": "Toplam 1.500 m² inşaat alanı"
     },
     {
-      "title": "Polat Yol Yapı Erbil Konutları []",
+      "title": "Polat Yol Yapı Erbil Konutları",
       "location": "Erbil - IRAK",
       "year": "2013",
       "contact": "Oktay NAYMAN",
-      "description": "Toplam 45.000 m² inşaat alanı"},
+      "description": "Toplam 45.000 m² inşaat alanı"
+    },
     {
-      "title": "Meydan AVM İlave İnşaat İşleri []",
+      "title": "Meydan AVM İlave İnşaat İşleri",
       "location": "İstanbul",
       "year": "2013",
       "contact": "Ertuğrul YILDIZ / 0212 528 02 27",
-      "description": "Toplam 110.000 m² inşaat alanı"},
-      {
-      "title": "Suryapı Vitrin Sultangazi []",
+      "description": "Toplam 110.000 m² inşaat alanı"
+    },
+    {
+      "title": "Suryapı Vitrin Sultangazi",
       "location": "İstanbul",
       "year": "2014",
       "contact": "Ramiz SOYLU / 0542 432 72 73",
-      "description": "Toplam 40.000 m² inşaat alanı"},
-      {
-      "title": "Orjin İzmir İstinyepark Rezidanz + AVM []",
+      "description": "Toplam 40.000 m² inşaat alanı"
+    },
+    {
+      "title": "Orjin İzmir İstinyepark Rezidanz + AVM",
       "location": "İZMİR",
       "year": "2014",
       "contact": "Savaş YILDIRIM / 0212 705 11 11",
-      "description": "Toplam 315.000 m² inşaat alanı"},
-      
-      {
-      "title": "Suryapı Bursa Rezidanz + AVM []",
+      "description": "Toplam 315.000 m² inşaat alanı"
+    },
+    {
+      "title": "Suryapı Bursa Rezidanz + AVM",
       "location": "Bursa",
       "year": "2014",
       "contact": "Ramiz SOYLU / 0542 432 72 73",
-      "description": "Toplam 146.000 m² inşaat alanı"}
-      ,{
-      "title": "Salı Pazarı Galataport Limanı []",
+      "description": "Toplam 146.000 m² inşaat alanı"
+    },
+    {
+      "title": "Salı Pazarı Galataport Limanı",
       "location": "İstanbul",
       "year": "2014",
       "contact": "Aktuğ AKBAYTÜRK / 0530 201 77 61",
-      "description": "Toplam 412.00 m² inşaat alanı"}
-      ,{
-      "title": "Nef 12 Otel + Konut + Yurt []",
+      "description": "Toplam 412.00 m² inşaat alanı"
+    },
+    {
+      "title": "Nef 12 Otel + Konut + Yurt",
       "location": "İstanbul",
       "year": "2014",
       "contact": "Oktay Nayman / 0532 686 71 79",
-      "description": "Toplam 42.000 m² inşaat alanı"}
-      ,{
-      "title": "Doğuş Gayrimenkul Gebze Oteli []",
+      "description": "Toplam 42.000 m² inşaat alanı"
+    },
+    {
+      "title": "Doğuş Gayrimenkul Gebze Oteli",
       "location": "Kocaeli",
       "year": "2014",
       "contact": "Ertan BARIN / 0212 335 28 50",
-      "description": "Toplam 52.000 m² inşaat alanı"}
-      ,{
-      "title": "Mehmet Ali Aydınlar Evi - Çengelköy []",
+      "description": "Toplam 52.000 m² inşaat alanı"
+    },
+    {
+      "title": "Mehmet Ali Aydınlar Evi - Çengelköy",
       "location": "İstanbul",
       "year": "2014",
       "contact": "Sinan KAFADAR",
-      "description": "Toplam 3.000 m² inşaat alanı"}  
+      "description": "Toplam 3.000 m² inşaat alanı"
+    }  
   ],
 
   "all": [
     {
-      "title": "Ferko İnşaat Azerbaycan Sefirlik []",
+      "title": "Ferko İnşaat Azerbaycan Sefirlik",
       "location": "Azerbaycan",
       "year": "1999",
       "contact": "Gürol GERÇEL",
@@ -345,63 +378,63 @@
       "explanation": "Toplam 8.000 m² inşaat alanı\nSefirlik personel + ofis binası"
     },
     {
-      "title": "Gürmaş A.Ş. Silivri Çiftlik Tesisleri []",
+      "title": "Gürmaş A.Ş. Silivri Çiftlik Tesisleri",
       "location": "İstanbul",
       "year": "1999",
       "contact": "İbrahim ARIKAN / 0212 290 61 00",
       "explanation": "Toplam 12.100 m² inşaat alanı (proje + mesleki kontrollük hizmetleri)\nManej, Ahır + Restoran binaları"
     },
     {
-      "title": "Gürmaş Ümraniye Konutları []",
+      "title": "Gürmaş Ümraniye Konutları",
       "location": "İstanbul",
       "year": "2000",
       "contact": "",
       "explanation": "Toplam 8.000 m² inşaat alanı\n10 katlı konut binaları + yeraltı garajları"
     },
     {
-      "title": "Hürriyet Antalya Baskı Tesisleri []",
+      "title": "Hürriyet Antalya Baskı Tesisleri",
       "location": "Antalya",
       "year": "1998",
       "contact": "Nezih KUTAY / 0212 478 54 06",
       "explanation": "Toplam 10.000 m² inşaat alanı\nCephe ve Yüksek Baskı holü çelik konstrüksiyon projeleri"
     },
     {
-      "title": "Kilerci Matbaa Tesisleri - İkitelli []",
+      "title": "Kilerci Matbaa Tesisleri - İkitelli",
       "location": "İstanbul",
       "year": "1999",
       "contact": "Mahmut ÇATAKLI / 0216 521 29 60",
       "explanation": "Toplam 24.000 m² inşaat alanı (proje + mesleki kontrollük hizmetleri)\nidari bölümler + matbaa tesisleri"
     },
     {
-      "title": "Leylam Tekstil Atölye Binası - Pendik []",
+      "title": "Leylam Tekstil Atölye Binası - Pendik",
       "location": "İstanbul",
       "year": "1998",
       "contact": "Güneş BECERAL / 0533 734 60 18",
       "explanation": "Toplam 8.000 m² inşaat alanı\n6 katlı atölye + ofis blok"
     },
     {
-      "title": "Maçka Palas []",
+      "title": "Maçka Palas",
       "location": "İstanbul",
       "year": "1997",
       "contact": "Turgut ALTINSOY / 0216 589 04 40",
       "explanation": "Toplam 12.000 m² inşaat alanı"
     },
     {
-      "title": "MEF Okulları İlave Havuz + Okul Binaları []",
+      "title": "MEF Okulları İlave Havuz + Okul Binaları",
       "location": "İstanbul",
       "year": "1997-1999",
       "contact": "İbrahim ARIKAN / 0212 290 61 00",
       "explanation": "Toplam 10.000 m² inşaat alanı\n24 m açıklıklı betonarme havuz + 4 katlı çelik yapı"
     },
     {
-      "title": "Multi Türk Mall Forum Marmara Alışveriş Merkezi []",
+      "title": "Multi Türk Mall Forum Marmara Alışveriş Merkezi",
       "location": "İstanbul",
       "year": "2009",
       "contact": "Murat CENGİZ / 0212 251 21 11",
       "explanation": "Toplam 400.000 m² inşaat alanı"
     },
     {
-      "title": "Özen İş Merkezi - Maslak []",
+      "title": "Özen İş Merkezi - Maslak",
       "location": "İstanbul",
       "year": "1998",
       "contact": "Erdem ALP / 0212 217 81 00",
@@ -471,7 +504,7 @@
       "explanation": "Toplam 4.000 m² inşaat alanı\n3 katlı ofis + GSM (Takviye projeleri)"
     },
     {
-      "title": "Ferko İnşaat Azerbaycan Sefirlik []",
+      "title": "Ferko İnşaat Azerbaycan Sefirlik",
       "location": "Azerbaycan",
       "year": 1999,
       "contact": "Gürol GERÇEL",
@@ -492,28 +525,28 @@
       "explanation": "Toplam 10.000 m² inşaat alanı Cephe ve Yüksek Baskı holü çelik konstrüksiyon projeleri"
     },
     {
-      "title": "Kilerci Matbaa Tesisleri - İkitelli ",
+      "title": "Kilerci Matbaa Tesisleri - İkitelli",
       "location": "İstanbul",
       "year": 1999,
       "contact": "Mahmut ÇATAKLI / 0216 521 29 60",
       "explanation": "Toplam 24.000 m² inşaat alanı (proje + mesleki kontrollük hizmetleri) idari bölümler + matbaa tesisleri"
     },
     {
-      "title": "Leylam Tekstil Atölye Binası - Pendik ",
+      "title": "Leylam Tekstil Atölye Binası - Pendik",
       "location": "İstanbul",
       "year": 1998,
       "contact": "Güneş BECERAL / 0533 734 60 18",
       "explanation": "Toplam 8.000 m² inşaat alanı 6 katlı atölye + ofis blok"
     },
     {
-      "title": "Leylam Tekstil Ofis Binası - Kurtuluş ",
+      "title": "Leylam Tekstil Ofis Binası - Kurtuluş",
       "location": "İstanbul",
       "year": 1997,
       "contact": "Güneş BECERAL / 0533 734 60 18",
       "explanation": "Toplam 3.000 m² inşaat alanı 9 katlı ofis blok"
     },
     {
-      "title": "Maçka Palas ",
+      "title": "Maçka Palas",
       "location": "İstanbul",
       "year": 1997,
       "contact": "Turgut ALTINSOY / 0216 589 04 40",
@@ -527,12 +560,13 @@
       "explanation": "Toplam 10.000 m² inşaat alanı 24 m açıklıklı betonarme havuz + 4 katlı çelik yapı"
     },
     {
-      "title": "Multi Türk Mall Forum Marmara Alışveriş Merkezi ",
+      "title": "Multi Türk Mall Forum Marmara Alışveriş Merkezi",
       "location": "İstanbul",
       "year": 2009,
       "contact": "Murat CENGİZ / 0212 251 21 11",
       "explanation": "Toplam 400.000 m² inşaat alanı"
     },
+  
     {
       "title": "Özen İş Merkezi - Maslak ",
       "location": "İstanbul",
