@@ -96,12 +96,14 @@ async function renderProjects(projects) {
     projectDiv.classList.add("project");
 
     const title = document.createElement("h6");
+    title.className = "project-card-title";
     title.style.paddingLeft = "15px";
     title.style.paddingTop = "15px";
     title.style.overflow = "hidden";
     title.innerHTML = project.title;
 
     const locationSpan = document.createElement("span");
+    locationSpan.className = "project-info";
     locationSpan.style.paddingLeft = "15px";
     locationSpan.style.paddingTop = "15px";
     locationSpan.innerHTML = `Location: <span>${project.location}</span><br/>`;
@@ -111,6 +113,7 @@ async function renderProjects(projects) {
 
     if (project.year) {
       const yearSpan = document.createElement("span");
+      yearSpan.className = "project-info";
       yearSpan.style.paddingLeft = "15px";
       yearSpan.style.paddingTop = "15px";
       yearSpan.style.overflow = "hidden";
@@ -121,6 +124,7 @@ async function renderProjects(projects) {
 
     if (project.communication) {
       const communicationSpan = document.createElement("span");
+      communicationSpan.className = "project-info";
       communicationSpan.style.paddingLeft = "15px";
       communicationSpan.style.paddingTop = "15px";
       communicationSpan.style.overflow = "hidden";
@@ -130,6 +134,7 @@ async function renderProjects(projects) {
 
     if (project.contact) {
       const contactSpan = document.createElement("span");
+      contactSpan.className = "project-info";
       contactSpan.style.paddingLeft = "15px";
       contactSpan.style.paddingTop = "15px";
       contactSpan.innerHTML = `Contact: <span>${project.contact}</span>`;
@@ -138,6 +143,7 @@ async function renderProjects(projects) {
 
     if (project.description) {
       const descriptionSpan = document.createElement("span");
+      descriptionSpan.className = "project-info";
       descriptionSpan.style.paddingLeft = "15px";
       descriptionSpan.style.paddingTop = "15px";
       descriptionSpan.innerHTML = `Description: <span>${project.description}</span>`;
